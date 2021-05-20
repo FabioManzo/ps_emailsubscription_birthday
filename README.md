@@ -2,7 +2,7 @@
 Modified version of ps_emailsubscription to let the customer insert her birthday
 
 1 - insert a column in the ps_emailsubscription table. 
-    the column is:
+    The column fields are:\n
         Name: birthday
         Type: date
         
