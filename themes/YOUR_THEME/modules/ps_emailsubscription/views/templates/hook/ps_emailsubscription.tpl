@@ -76,7 +76,7 @@ input.birthday {
                   >
 
                   <label class="labelWhiteBck">Data di nascita:</label>
-                  <input class="birthday" type="date" name="birthday" />
+                  <input class="birthday" type="date" name="birthday" placeholder="GG/MM/AAAA" />
 
                   
               </div>
