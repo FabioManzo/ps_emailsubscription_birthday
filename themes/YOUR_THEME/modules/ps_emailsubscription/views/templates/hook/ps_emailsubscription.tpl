@@ -57,7 +57,7 @@ input.birthday {
                 aria-labelledby="block-newsletter-label"
                 required
               >
-              <input class="birthday" type="date" name="birthday" value="" placeholder="{l s='Your birthday' d='Modules.Emailsubscription.Shop'}" />
+              <input placeholder="{l s='Your birthday' d='Modules.Emailsubscription.Shop'}" class="birthday" type="text" name="birthday" onfocus="(this.type='date')" onblur="(this.type='text')" />
             </div>
 
             <input type="hidden" name="blockHookName" value="{$hookName}" />
